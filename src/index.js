@@ -2,11 +2,7 @@ import React from "react";
 
 import ReactDOM from "react-dom";
 
-//import App from "./components/App";
-import Approute from "./components/Approute"
+import Card from "./components/Card"
 
 
-
-
-//document.getElementById("root")
-ReactDOM.render(<Approute/> , document.querySelector("#root"))
+ReactDOM.render(<Card />, document.querySelector("#root"))
